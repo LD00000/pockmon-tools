@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title>pockmon type</title>
+  <meta charset="utf-8">
+  <style>
+    .type-panel {
+      width: 20px;
+      height: 20px;
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+  <script type="javascript">
+    var type = {
+      '普': '0',
+      '火': '1',
+      '水': '2',
+      '草': '3',
+      '电': '4',
+      '冰': '5',
+      '斗': '6',
+      '毒': '7',
+      '地': '8',
+      '飞': '9',
+      '超': '10',
+      '虫': '11',
+      '岩': '12',
+      '鬼': '13',
+      '龙': '14',
+      '恶': '15',
+      '钢': '16',
+      '妖': '17'
+    };
+
+    var color = ['red'];
+
+    var relationship = new array(
+      [1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   1,   0.5,   0,   1,   1,   0.5, 1],
+      [1,   0.5, 0.5, 2,   1,   2,   1,   1,   1,   1,   1,   2,   0.5,   1,   0.5, 1,   2,   1],
+      [1,   2,   0.5, 0.5, 1,   1,   1,   1,   2,   1,   1,   1,     2,   1,   0.5, 1,   1,   1],
+      [1,   0.5, 2,   0.5, 1,   1,   1,   0.5, 2,   0.5, 1,   0.5,   2,   1,   0.5, 1,   0.5, 1],
+      []
+    );
+  </script>
+</head>
+<body>
+  <div class="type-panel">
+    普
+  </div>
+</body>
+</html>
